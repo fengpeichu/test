@@ -1,0 +1,77 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none; }
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+.wrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  margin: 12px 0;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative; }
+  .wrap .header {
+    width: 100%;
+    height: 55px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-content: center; }
+    .wrap .header .hyy {
+      width: 75%;
+      height: 100%;
+      font-size: 28px;
+      border-bottom: 1px solid #ccc; }
+  .wrap .body {
+    width: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    display: none; }
+    .wrap .body > div {
+      flex: 1; }
+    .wrap .body button {
+      height: 44px;
+      width: 75%;
+      background: green;
+      border: 0;
+      font-size: 24px;
+      color: #fff;
+      margin: 50px 10%;
+      border-radius: 15px; }
+  .wrap .key {
+    width: 100%;
+    height: 50%;
+    left: 0;
+    bottom: 0;
+    position: absolute; }
+    .wrap .key ul {
+      width: 100%;
+      height: 100%;
+      background: silver; }
+      .wrap .key ul li {
+        width: 100%;
+        height: 25%; }
+        .wrap .key ul li span {
+          display: inline-block;
+          width: 22%;
+          height: 100%;
+          border: 1px solid #fff;
+          text-align: center;
+          line-height: 85px; }
+        .wrap .key ul li .fs {
+          width: 46%; }
+        .wrap .key ul li b {
+          display: inline-block;
+          width: 22%;
+          height: 100%;
+          border: 1px solid #fff;
+          text-align: center;
+          line-height: 85px; }
