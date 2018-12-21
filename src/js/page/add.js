@@ -22,5 +22,8 @@ require(['../js/config.js'], function() {
                 $('.hyy').append($(this).html());
             }
         })
+        $('#b').on('click', function() {
+            location.href = '../../page/still.html';
+        })
     })
 })
